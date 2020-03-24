@@ -1,0 +1,137 @@
+body,
+html {
+    font-family: fantasy;
+    background-color: rgb(51, 207, 235);
+}
+
+.tablero {
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 600px;
+    border-radius: 0;
+    position: relative;
+}
+
+.img_tablero {
+    width: 600px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.inicio {
+    top: 43%;
+    left: 60px;
+    position: relative;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.boton {
+    height: 60px;
+    padding: 20px 30px 20px 30px;
+    justify-content: center;
+    width: fit-content;
+    box-sizing: border-box;
+    border: 3px solid rgb(252, 252, 252);
+    background-color: rgb(1, 250, 84);
+    border-radius: 25px;
+    font-family: fantasy;
+    position: absolute;
+    font-size: 20px;
+}
+
+.btn_dado {
+    top: 25px;
+    left: 600px;
+}
+
+.img_dado {
+    top: 100px;
+    left: 630px;
+    position: absolute;
+}
+
+.jugador,
+.img_jugador {
+    height: 70px;
+    width: 70px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+
+.jugador.j1 {
+    top: 160px;
+    left: 40px;
+    position: absolute;
+}
+
+.jugador.j2 {
+    top: 200px;
+    left: 90px;
+    position: absolute;
+}
+
+.jugador.j3 {
+    top: 250px;
+    left: 150px;
+    position: absolute;
+}
+
+.jugador.j4 {
+    top: 250px;
+    left: 70px;
+}
+
+.boton#nJ2,
+.boton#nJ3,
+.boton#nJ4,
+.boton#r1,
+.boton#r2,
+.boton#r3,
+.boton#r4 {
+    display: block;
+    position: sticky;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.pregunta {
+    background-color: rgb(37, 247, 177);
+    border: 5px solid rgb(41, 98, 221);
+    padding: 20px 20px 20px 20px;
+    width: fit-content;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.respuesta {
+    background-color: rgb(40, 103, 238);
+    border: 5px solid rgb(124, 205, 236);
+    padding: 20px 20px 20px 20px;
+    width: fit-content;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.info {
+    margin-top: 15px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    background-color: rgb(228, 231, 53);
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    left: 760px;
+    position: absolute;
+    display: flex;
+}
